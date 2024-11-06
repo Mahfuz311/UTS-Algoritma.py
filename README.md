@@ -80,3 +80,19 @@ print(f"Total Harga: Rp{total}")
 # Mencetak struk
 keranjang.cetak_struk()
 
+<img src="Screenshot 2024-11-06 214130.png">
+
+### Penjelasa Code
+
+1. Class Barang:
+    Menyimpan informasi tentang nama dan harga setiap barang.
+2. Class Keranjang:
+    Menyimpan barang yang dibeli dan jumlahnya.
+    Fungsi tambah_barang digunakan untuk menambah barang ke dalam keranjang. Jika barang sudah ada, jumlahnya akan ditambah.
+    Fungsi total_harga untuk menghitung total harga semua barang dalam keranjang.
+    Fungsi tampilkan_daftar_barang untuk menampilkan daftar barang dalam keranjang beserta jumlah dan total harga setiap barang.
+    Fungsi cetak_struk untuk mencetak struk pembelian yang mencakup daftar barang yang dibeli dan total harga.
+
+### Contoh Output
+
+<img src="
