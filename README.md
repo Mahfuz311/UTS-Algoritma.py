@@ -4,26 +4,29 @@
 ## Jawab Soal UTS
 
 ### Struktur Data yang Digunakan:
-Barang:
 
-Setiap barang akan memiliki nama, harga, dan jumlah yang ditambahkan ke keranjang.
+1. Barang:
 
-Keranjang:
+    Setiap barang akan memiliki nama, harga, dan jumlah yang ditambahkan ke keranjang.
 
-Keranjang akan berisi daftar barang yang dipilih oleh pelanggan beserta jumlah dan harga setiap barang.
+2. Keranjang:
 
-Struk:
+    Keranjang akan berisi daftar barang yang dipilih oleh pelanggan beserta jumlah dan harga setiap barang.
 
-Struk akan berisi daftar barang yang dibeli beserta harga dan total harga setelah diskon (jika ada).
+4. Struk:
+
+    Struk akan berisi daftar barang yang dibeli beserta harga dan total harga setelah diskon (jika ada).
 
 ### Code Python
 
-class Barang:
+    class Barang:
+    
     def __init__(self, nama, harga):
         self.nama = nama
         self.harga = harga
 
-class Keranjang:
+    class Keranjang:
+    
     def __init__(self):
         self.items = []  # Menyimpan barang dan jumlah yang dibeli
     
@@ -55,30 +58,30 @@ class Keranjang:
         print("===========================")
 
 
-# Contoh penggunaan program kasir
+    # Contoh penggunaan program kasir
 
-# Daftar barang yang tersedia
-barang1 = Barang("Sabun Mandi", 15000)
-barang2 = Barang("Shampo", 25000)
-barang3 = Barang("Pasta Gigi", 12000)
+    # Daftar barang yang tersedia
+    barang1 = Barang("Sabun Mandi", 15000)
+    barang2 = Barang("Shampo", 25000)
+    barang3 = Barang("Pasta Gigi", 12000)
 
-# Membuat keranjang belanja
-keranjang = Keranjang()
+    # Membuat keranjang belanja
+    keranjang = Keranjang()
 
-# Menambahkan barang ke keranjang
-keranjang.tambah_barang(barang1, 2)  # 2 Sabun Mandi
-keranjang.tambah_barang(barang2, 1)  # 1 Shampo
-keranjang.tambah_barang(barang3, 3)  # 3 Pasta Gigi
+    # Menambahkan barang ke keranjang
+    keranjang.tambah_barang(barang1, 2)  # 2 Sabun Mandi
+    keranjang.tambah_barang(barang2, 1)  # 1 Shampo
+    keranjang.tambah_barang(barang3, 3)  # 3 Pasta Gigi
 
-# Menampilkan daftar barang yang ada di keranjang
-keranjang.tampilkan_daftar_barang()
+    # Menampilkan daftar barang yang ada di keranjang
+    keranjang.tampilkan_daftar_barang()
 
-# Menghitung total harga
-total = keranjang.total_harga()
-print(f"Total Harga: Rp{total}")
+    # Menghitung total harga
+    total = keranjang.total_harga()
+    print(f"Total Harga: Rp{total}")
 
-# Mencetak struk
-keranjang.cetak_struk()
+    # Mencetak struk
+    keranjang.cetak_struk()
 
 <img src="Screenshot 2024-11-06 214130.png">
 
@@ -95,4 +98,6 @@ keranjang.cetak_struk()
 
 ### Contoh Output
 
-<img src="
+<img src="Screenshot 2024-11-06 214215.png">
+
+....
